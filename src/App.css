@@ -1,0 +1,44 @@
+.App {
+  align-content: center;
+  text-align: center;
+  color: #3a4455;
+  margin-bottom: 40%;
+}
+.center {
+  justify-content: center;
+}
+.AppWelcome {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: start;
+}
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #f3f5f7;
+}
+.DetectBox {
+  position: absolute;
+}
+.myImage {
+  position: absolute;
+  left: 10%;
+  float: left;
+  margin-top: 2%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.details-options {
+  margin-left: 20%;
+  text-align: start;
+  margin-right: 20%;
+}
