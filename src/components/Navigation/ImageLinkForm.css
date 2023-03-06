@@ -1,3 +1,10 @@
+.warning p{
+  background-color: yellow;
+}
+.warning{
+  align-items: center;
+  text-align: center;
+}
 .center {
   display: flex;
   position: relative;
